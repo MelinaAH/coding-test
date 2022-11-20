@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Find the mistakes</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.125rem;
+            line-height: 1.5;
+        }
+
+        header {
+            background-color: rgb(224, 224, 224);
+            padding: 5px 25px 5px 25px;
+            margin-bottom: 12px;
+            text-align: left;
+            color: black;
+        }
+
+        .header {
+            font-size: 2rem;
+        }
+
+        .flex-section {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -5px;
+        }
+
+        .article-items {
+            background-color: rgb(224, 224, 224);
+            padding: 10px 20px 10px 20px;
+            flex-basis: calc(33.33% - 10px);
+            margin: 0 5px 12px 5px;
+        }
+
+        .heading {
+            font-size: 1.5rem;
+        }
+
+        footer {
+            padding: 5px 25px 5px 25px;
+            background-color: rgb(224, 224, 224);
+        }
+
+        @media only screen and (max-width: 960px) {
+            .article-items {
+                flex-basis: calc(50% - 10px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="header">News site</h1>
+    </header>
+    <section class="flex-section">
+        <article class="article-items">
+            <h1 class="heading">Item heading 1</h1>
+            <p>Ellique dollestias aut ut volore esequatur, sita dellorr ovidebi tincte nistiur errume nosam fugiam
+                volupta
+                everae. Nimpedit alignimi, sita et ant aliquatur, acepel ius.
+                Borum lam cus autecuptas resequam dusda quam audi tem facerum di volor sincim fugiam exceatibus quo
+                blandent, is aut vel ipsam saecepudis et, voluptatem este nimus
+            </p>
+        </article>
+        <article class="article-items">
+            <h1 class="heading">Item heading 2</h1>
+            <p>Udam, eatur, sitiur sum qui to earitaq uasinim olorum, core ped qui omnis quodipsam ipsandi ratempe
+                rumque
+                venimi, nis volupta temolum re ipiduntiorum dolenda eprorum et elent id mo to ma conecto ipsape consed
+                estius accae la qui
+            </p>
+        </article>
+        <article class="article-items">
+            <h1 class="heading">Item heading 3</h1>
+            <p>Elessintis rerum reperio reperum quam, sam iunt, et veri omniatur sus ini ut latem earumque sus, simped
+                et
+                ulparum earum re latiora vel ipsandam, si bercil idit eliquos quisqui ut eicimus del iusanda nditiur
+                rerferum quibus.
+                Ovitatem eate soluption cumendamus sam quas moles dolorrum as alit, imin cones elluptas adignim aximus
+                iur
+                adis a ne ad es doluptatus ipsament pla net aliquid et lam il ium
+            </p>
+        </article>
+    </section>
+    <footer>
+        <p>© News site</p>
+    </footer>
+</body>
+
+</html>
